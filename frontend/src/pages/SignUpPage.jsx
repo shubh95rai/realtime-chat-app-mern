@@ -57,7 +57,7 @@ export default function SignUpPage() {
   }
 
   return (
-    <div className="h-[calc(100dvh-64px)] grid lg:grid-cols-2 mt-16">
+    <div className="min-h-[calc(100dvh-64px)] grid lg:grid-cols-2 pt-16">
       {/* left side */}
       <div className="flex flex-col justify-center items-center p-6 sm:p-12">
         <div className="w-full max-w-md space-y-8">
