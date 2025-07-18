@@ -1,6 +1,6 @@
 import bcryptjs from "bcryptjs";
 import User from "../models/User.js";
-import { generateToken } from "../lib/utils.js";
+import { clearTokenCookie, generateToken } from "../lib/utils.js";
 import cloudinary from "../configs/cloudinary.js";
 
 export async function signup(req, res) {
@@ -83,7 +83,7 @@ export async function login(req, res) {
 
 export async function logout(req, res) {
   try {
-    res.clearCookie("token");
+    clearTokenCookie(res);
 
     res.status(200).json({ message: "Logout successful" });
   } catch (error) {
