@@ -11,8 +11,8 @@ A modern, full-stack **Real-Time Chat Application** built using the **MERN Stack
 - 📸 **Image Uploads in Chat** (via **Cloudinary**)
 - 🟢 **Live Online / Offline Status**
 - 🔔 **Unread Message Badges**
-- 🔍 **User Search**
 - 📱 **Fully Responsive UI**
+- 🎨 **Theme Switching** with **35 Daisy UI Themes**
 
 ## 🛠️ Tech Stack
 
@@ -20,7 +20,7 @@ A modern, full-stack **Real-Time Chat Application** built using the **MERN Stack
 
 - React.js
 - Tailwind CSS
-- Daisy UI
+- Daisy UI (35 Prebuilt Themes)
 - Zustand (State Management)
 - Axios
 - Socket.io-client
@@ -44,6 +44,7 @@ A modern, full-stack **Real-Time Chat Application** built using the **MERN Stack
 - **Online Status**: Track and display user online/offline state
 - **Zustand Store**: Lightweight and efficient state management for UI and socket state
 - **Responsive Interface**: Tailored for mobile, tablet, and desktop with **Tailwind CSS + Daisy UI**
+- **Theme Support**: Choose from **35 Daisy UI themes** for a personalized look
 
 ## 🔔 Messaging Logic
 

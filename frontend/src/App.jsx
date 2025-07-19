@@ -30,7 +30,7 @@ export default function App() {
     return (
       <div
         data-theme={theme}
-        className="flex items-center justify-center h-screen"
+        className="flex items-center justify-center h-dvh"
       >
         <Loader className="size-10 animate-spin" />
       </div>
